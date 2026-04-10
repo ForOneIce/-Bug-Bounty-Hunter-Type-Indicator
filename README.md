@@ -1,11 +1,59 @@
-<div align="center">
+# BBH分院帽 - Bug Bounty Hunter Type Indicator (BBTI)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+这是一个基于哈利波特分院帽主题的漏洞赏金猎人（Bug Bounty Hunter）人格测试应用。通过一系列精心设计的心理与实战模拟题目，将你分入霍格沃茨漏洞赏金学院的四大分院，并揭示你独特的“猎人性格”。
 
-  <h1>Built with AI Studio</h2>
+## 🌟 项目特色
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **沉浸式分院体验**：精美的白色金边分院帽视觉设计，配合动态魔法背景，带你进入霍格沃茨的魔法世界。
+- **23种独特人格**：基于实战经验总结的23种漏洞赏金猎人画像，每种人格都对应一位哈利波特经典角色。
+- **多维度能力雷达图**：从好奇心、深度、系统性、野心、探索欲、勤奋度六个维度精准刻画你的技术特质。
+- **结果卡片下载**：支持将你的分院结果生成精美的录取通知书卡片并保存为图片，分享你的猎人身份。
+- **校友册关系网**：利用 D3.js 构建的力导向图，可视化展示 23 种人格之间的“最佳队友”关系与学院分布。
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🏰 四大分院
 
-</div>
+- **格兰芬多 (Gryffindor)**：勇气、探索、无畏挑战。
+- **拉文克劳 (Ravenclaw)**：智慧、博学、追求真理。
+- **赫奇帕奇 (Hufflepuff)**：正直、忠诚、勤奋不懈。
+- **斯莱特林 (Slytherin)**：野心、权谋、追求卓越。
+
+## 🛠️ 技术栈
+
+- **前端框架**：React 18 + TypeScript
+- **构建工具**：Vite
+- **样式处理**：Tailwind CSS
+- **动画效果**：Framer Motion (motion/react)
+- **数据可视化**：D3.js (校友册关系图), Recharts (能力雷达图)
+- **图像生成**：html-to-image (结果卡片下载)
+- **图标库**：Lucide React
+
+## 🚀 快速开始
+
+1. **安装依赖**：
+   ```bash
+   npm install
+   ```
+
+2. **启动开发服务器**：
+   ```bash
+   npm run dev
+   ```
+
+3. **构建生产版本**：
+   ```bash
+   npm run build
+   ```
+
+## 📜 许可
+
+### 开源协议
+本项目采用 [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) (署名-非商业性使用-相同方式共享 4.0 国际) 协议开源。
+
+**引用说明**：
+如果您在项目、文章或任何形式的传播中引用本项目，请务必在显著位置**署名来源**（本项目 GitHub 链接或名称）。
+
+### 数据来源
+本项目测试题目的前期调研工作（漏洞生态人员情况调研数据）由作者 [iceflake0](https://ko-fi.com/iceflake0) 独立完成。
+
+---
+本项目仅供学习与娱乐使用。

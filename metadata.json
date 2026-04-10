@@ -1,0 +1,5 @@
+{
+  "name": "Hogwarts Bug Bounty Academy: Sorting Hat Test",
+  "description": "A magical personality test for bug bounty hunters, sorting you into Hogwarts houses based on your hacking style.",
+  "requestFramePermissions": []
+}
