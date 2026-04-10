@@ -170,6 +170,16 @@ export const AlumniDirectory: React.FC<AlumniDirectoryProps> = ({ onBack }) => {
             * 连线表示最佳队友关系，颜色代表发起方学院
           </div>
         </div>
+        <div className="absolute bottom-6 right-6 flex flex-col items-end gap-2">
+          <a 
+            href="https://ko-fi.com/iceflake0" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-black/80 hover:bg-[#e2d1a3]/10 p-3 rounded-xl border border-[#e2d1a3]/20 text-xs backdrop-blur-sm transition-all flex items-center gap-2 group"
+          >
+            <span className="text-[#e2d1a3]/60 group-hover:text-[#e2d1a3]">Support builder</span>
+          </a>
+        </div>
       </div>
     </motion.div>
   );
